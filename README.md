@@ -57,3 +57,15 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+
+npm install -g angular-cli-ghpages
+ng add @angular/pwa
+
+angular.json:  "serviceWorker": "ngsw-config.json",
+
+ng build --configuration=production
+npm install -g http-server
+cd dist/utility
+http-server -p 8080
