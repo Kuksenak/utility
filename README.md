@@ -69,3 +69,6 @@ ng build --configuration=production
 npm install -g http-server
 cd dist/utility
 http-server -p 8080
+
+ng build --configuration production --base-href "utility"
+npx angular-cli-ghpages --dir=dist/utility/browser
