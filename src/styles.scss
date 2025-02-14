@@ -1,4 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+    font-family: sans-serif, monospace;
+    color: #001b3f;
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+    .nav-button {
+        margin-right: 0.4em;
+        padding: 0.4em 0.8em;
+        // background-color: #005cbb;
+        background-color: #d7e3ff;
+        // color: #ffffff;
+        color: #001b3f;
+        border-radius: 0.3em;
+        text-decoration: none;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+
+        &:active {
+            opacity: 0.8;
+        }
+    }
+}
