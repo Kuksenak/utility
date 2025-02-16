@@ -1,7 +1,7 @@
 {
   "name": "utility",
   "short_name": "utility",
-  "theme_color": "#1976d2",
+  "theme_color": "#d7e3ff",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "./",
